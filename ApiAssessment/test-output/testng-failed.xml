@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Create and Rename Test positive scenario(failed)">
+    <parameter name="ChannelName" value="sample38"/>
+    <parameter name="NewChannelName" value="sample39"/>
+    <classes>
+      <class name="Scenario1Test">
+        <methods>
+          <include name="CreateAndRenameTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Scenario1Test -->
+    </classes>
+  </test> <!-- Create and Rename Test positive scenario(failed) -->
+</suite> <!-- Failed suite [Suite] -->
