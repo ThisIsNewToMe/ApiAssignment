@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1835" started-at="2019-03-30T14:25:01Z" finished-at="2019-03-30T14:25:03Z">
+  <suite name="Suite" duration-ms="3664" started-at="2019-03-30T18:59:53Z" finished-at="2019-03-30T18:59:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1835" started-at="2019-03-30T14:25:01Z" finished-at="2019-03-30T14:25:03Z">
+    <test name="Channel Archiving Test 1" duration-ms="3349" started-at="2019-03-30T18:59:53Z" finished-at="2019-03-30T18:59:56Z">
       <class name="com.api.ApiAssessment.Scenario2Test">
-        <test-method status="FAIL" signature="ArchivingTest()[pri:0, instance:com.api.ApiAssessment.Scenario2Test@5ef1eb]" name="ArchivingTest" duration-ms="1797" started-at="2019-03-30T14:25:01Z" finished-at="2019-03-30T14:25:03Z">
+        <test-method status="PASS" signature="ArchivingTest(java.lang.String)[pri:0, instance:com.api.ApiAssessment.Scenario2Test@a8a199]" name="ArchivingTest" duration-ms="3308" started-at="2019-03-30T18:59:53Z" finished-at="2019-03-30T18:59:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sample38]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArchivingTest -->
+      </class> <!-- com.api.ApiAssessment.Scenario2Test -->
+    </test> <!-- Channel Archiving Test 1 -->
+    <test name="Channel Archiving Test 2" duration-ms="292" started-at="2019-03-30T18:59:56Z" finished-at="2019-03-30T18:59:56Z">
+      <class name="com.api.ApiAssessment.Scenario2Test">
+        <test-method status="FAIL" signature="ArchivingTest(java.lang.String)[pri:0, instance:com.api.ApiAssessment.Scenario2Test@11ea65f]" name="ArchivingTest" duration-ms="285" started-at="2019-03-30T18:59:56Z" finished-at="2019-03-30T18:59:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sample38]]>
+              </value>
+            </param>
+          </params>
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[unable to archive channel,please check the channel name]]>
@@ -48,6 +70,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- ArchivingTest -->
       </class> <!-- com.api.ApiAssessment.Scenario2Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Channel Archiving Test 2 -->
+  </suite> <!-- Suite -->
 </testng-results>

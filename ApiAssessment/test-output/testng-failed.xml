@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Channel Archiving Test 2(failed)">
+    <parameter name="ChannelToArchive" value="sample38"/>
     <classes>
       <class name="com.api.ApiAssessment.Scenario2Test">
         <methods>
-          <include name="ArchivingTest"/>
+          <include name="ArchivingTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.api.ApiAssessment.Scenario2Test -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Channel Archiving Test 2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

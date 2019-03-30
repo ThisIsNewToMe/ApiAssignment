@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Create and Rename Test positive scenario(failed)">
-    <parameter name="ChannelName" value="sample53"/>
-    <parameter name="NewChannelName" value="sample54"/>
+  <test thread-count="5" name="Channel Archiving Test 2(failed)">
+    <parameter name="ChannelToArchive" value="sample38"/>
     <classes>
-      <class name="com.api.ApiAssessment.Scenario1Test">
+      <class name="com.api.ApiAssessment.Scenario2Test">
         <methods>
-          <include name="CreateAndRenameTest" invocation-numbers="0"/>
+          <include name="ArchivingTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.api.ApiAssessment.Scenario1Test -->
+      </class> <!-- com.api.ApiAssessment.Scenario2Test -->
     </classes>
-  </test> <!-- Create and Rename Test positive scenario(failed) -->
+  </test> <!-- Channel Archiving Test 2(failed) -->
 </suite> <!-- Failed suite [Suite] -->
