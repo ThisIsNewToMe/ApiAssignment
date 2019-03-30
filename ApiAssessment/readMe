@@ -1,0 +1,40 @@
+Api Assessment
+
+Language Used : JAVA
+
+API Testing Framework: Rest Assured
+
+Build Tool: Maven
+
+Testing framework : TestNG
+
+repo link : https://github.com/ThisIsNewToMe/ApiAssignment.git
+
+Here are prerequisite to run the test case;
+
+How to run - using TestNg.xml file
+
+Given scenario:
+
+Scenario:
+● Signup for Slack API and sign in
+● Generate API Token https://api.slack.com/custom-integrations/legacy-tokens
+● Please refer the API Doc @ https://api.slack.com/methods
+● Create a new Channel
+● Join the newly created Channel
+● Rename the Channel
+● List all Channels and Validate if the Channel name has changed successfully
+● Archive the Channel
+● Validate if the Channel is archived successfully
+
+Explaination
+
+Given scenario is split into 2 
+  a. Create,join and rename channel
+  b. Channel Archiving
+  
+  Test cases for first scenario is grouped under ApiAssignment/ApiAssessment/Scenario1TestNg.xml 
+  and Test cases for second scenario is grouped under ApiAssignment/ApiAssessment/Scenario2TestNg.xml
+  
+  Context click on above file will provide you option to run with TestNg.
+       
