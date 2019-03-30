@@ -5,10 +5,10 @@
 <!-- Test1 Positive Scenario -->
 
   <test name="Create and Rename Test positive scenario">
-  <parameter name="ChannelName" value="sample38"></parameter>
-  <parameter name="NewChannelName" value="sample39"></parameter>
+  <parameter name="ChannelName" value="sample53"></parameter>
+  <parameter name="NewChannelName" value="sample54"></parameter>
     <classes>
-    <class name="Scenario1Test"/>
+    <class name="com.api.ApiAssessment.Scenario1Test"/>
     
      </classes>
   </test> <!-- Test -->

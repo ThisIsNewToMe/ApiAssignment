@@ -23,8 +23,10 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="E:/vicky/rest assured/rest-assured-3.3.0.jar"/>
 	<classpathentry kind="lib" path="E:/vicky/junit-4.13-beta-2.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/paro/Desktop/eclipse/New folder/selenium jar/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/paro/Desktop/eclipse/New folder/selenium jar/client-combined-3.141.59-sources.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
