@@ -3,8 +3,8 @@
 <suite name="Suite">
   <!-- Test1 Positive Scenario -->
 
-  <test name="Channel Archiving Test positive scenario">
-  <parameter name="ChannelToArchive" value="sample40"></parameter>
+  <test name="Channel Archiving Test 1">
+  <parameter name="ChannelToArchive" value="sample38"></parameter>
     <classes>
     <class name="com.api.ApiAssessment.Scenario2Test"/>
     
@@ -13,8 +13,8 @@
   
   <!-- Test1 Positive Scenario -->
 
-  <test name="Channel Test Negative scenario">
-  <parameter name="ChannelToArchive" value="sample12"></parameter>
+  <test name="Channel Archiving Test 2">
+  <parameter name="ChannelToArchive" value="sample38"></parameter>
     <classes>
     <class name="com.api.ApiAssessment.Scenario2Test"/>
     

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 	
+  
+<!-- Test1 Provide different values for "ChannelName" and "NewChannelName"  -->
+
+  <test name="Create and Rename Test 1">
+  <parameter name="ChannelName" value="sample38"></parameter>
+  <parameter name="NewChannelName" value="sample39"></parameter>
+    <classes>
+    <class name="com.api.ApiAssessment.Scenario1Test"/>
+    
+     </classes>
+  </test> <!-- Test -->
+  
+  <!-- Test2 Provide different values for "ChannelName" and "NewChannelName" max 21 chars and spl chars  -->
+
+  <test name="Create and Rename Test 2">
+  <parameter name="ChannelName" value="sampleletters_3-81190"></parameter>
+  <parameter name="NewChannelName" value="sa_mple-letters390118"></parameter>
+    <classes>
+    <class name="com.api.ApiAssessment.Scenario1Test"/>
+    
+     </classes>
+  </test> <!-- Test -->
+  
+  
+  <!-- Test3 Renaming the channel with the existing name will fail the case -->
+
+  <test name="Create and Rename Test 3">
+  <parameter name="ChannelName" value="sample38"></parameter>
+  <parameter name="NewChannelName" value="sample39"></parameter>
+    <classes>
+    <class name="com.api.ApiAssessment.Scenario1Test"/>
+    
+     </classes>
+  </test> <!-- Test -->
+  
+  <!-- Test4 Renaming the channel with blank value -->
+  
+    <test name="Create and Rename Test 4">
+  <parameter name="ChannelName" value="sample50"></parameter>
+  <parameter name="NewChannelName" value=""></parameter>
+    <classes>
+    <class name="com.api.ApiAssessment.Scenario1Test"/>
+    
+     </classes>
+  </test> <!-- Test -->
+  
+  <!-- Test5 provide blank value for channel name -->
+  
+    <test name="Create and Rename Test 5">
+  <parameter name="ChannelName" value="sample50"></parameter>
+  <parameter name="NewChannelName" value=""></parameter>
+    <classes>
+    <class name="com.api.ApiAssessment.Scenario1Test"/>
+    
+     </classes>
+  </test> <!-- Test -->
+  
+  
+
+</suite> <!-- Suite -->

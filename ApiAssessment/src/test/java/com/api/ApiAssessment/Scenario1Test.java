@@ -10,23 +10,23 @@ import java.util.Properties;
 public class Scenario1Test 
 {
    @Test
-   //@Parameters({"ChannelName","NewChannelName"})
-    public static void CreateAndRenameTest() //String ChannelName,String NewChannelName
+   @Parameters({"ChannelName","NewChannelName"})
+    public static void CreateAndRenameTest(String ChannelName,String NewChannelName) //String ChannelName,String NewChannelName
     {
 	   	Properties prop = RestUtils.filename();	
 	   	
 	   	
         try
         {
-        	boolean isChannelCreated = HelperMethods.CreateNewChannel(prop.getProperty("Auth_Token"), "sample55");
+        	boolean isChannelCreated = HelperMethods.CreateNewChannel(prop.getProperty("Auth_Token"), ChannelName);
         	if(isChannelCreated)
         	{
-        		boolean response = HelperMethods.JoinAndRenameList(prop.getProperty("Auth_Token"),"sample55" ,"sample56" );
+        		boolean response = HelperMethods.JoinAndRenameList(prop.getProperty("Auth_Token"),ChannelName ,NewChannelName );
         		List<String> channelNames = HelperMethods.GetListOfAllChannels(prop.getProperty("Auth_Token"));
  
             	if(response)
             	{
-            		Assert.assertEquals(true, channelNames.contains("sample56"));
+            		Assert.assertEquals(true, channelNames.contains(NewChannelName));
             	}
             	
             	else
