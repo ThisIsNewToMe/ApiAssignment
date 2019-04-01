@@ -4,17 +4,17 @@
   <!-- Test1 Positive Scenario -->
 
   <test name="Channel Archiving Test 1">
-  <parameter name="ChannelToArchive" value="sample38"></parameter>
+  <parameter name="ChannelToArchive" value="sample102"></parameter>
     <classes>
     <class name="com.api.ApiAssessment.Scenario2Test"/>
     
      </classes>
   </test> <!-- Test -->
   
-  <!-- Test1 Positive Scenario -->
+  <!-- Test1 Negative Scenario - archiving the archived channel will fail  -->
 
   <test name="Channel Archiving Test 2">
-  <parameter name="ChannelToArchive" value="sample38"></parameter>
+  <parameter name="ChannelToArchive" value="sample102"></parameter>
     <classes>
     <class name="com.api.ApiAssessment.Scenario2Test"/>
     
