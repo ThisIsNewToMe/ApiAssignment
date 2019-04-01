@@ -37,4 +37,10 @@ Given scenario is split into 2
   and Test cases for second scenario is grouped under ApiAssignment/ApiAssessment/Scenario2TestNg.xml
   
   Context click on above file will provide you option to run with TestNg.
+  
+  Please note: 
+1) As this code is hosted in Git , Slack will disable the API token. please generate new API token before test execution.
+2) Scenario1TestNg.xml file takes channel name and channel rename as input , please provide new names as input before test execution.
+3) Scenario2TestNg.xml accepts already generated channel name as input, please provide the renamed channel name (from Scenario1TestNg.xml) as input
+
        
