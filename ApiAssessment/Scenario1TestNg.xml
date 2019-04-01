@@ -6,8 +6,8 @@
 <!-- Test1 Provide different values for "ChannelName" and "NewChannelName"  -->
 
   <test name="Create and Rename Test 1">
-  <parameter name="ChannelName" value="sample38"></parameter>
-  <parameter name="NewChannelName" value="sample39"></parameter>
+  <parameter name="ChannelName" value="sample101"></parameter>
+  <parameter name="NewChannelName" value="sample102"></parameter>
     <classes>
     <class name="com.api.ApiAssessment.Scenario1Test"/>
     
@@ -17,8 +17,8 @@
   <!-- Test2 Provide different values for "ChannelName" and "NewChannelName" max 21 chars and spl chars  -->
 
   <test name="Create and Rename Test 2">
-  <parameter name="ChannelName" value="sampleletters_3-81190"></parameter>
-  <parameter name="NewChannelName" value="sa_mple-letters390118"></parameter>
+  <parameter name="ChannelName" value="sampleletters_3-81200"></parameter>
+  <parameter name="NewChannelName" value="sa_mple-letters390199"></parameter>
     <classes>
     <class name="com.api.ApiAssessment.Scenario1Test"/>
     
@@ -51,8 +51,8 @@
   <!-- Test5 provide blank value for channel name -->
   
     <test name="Create and Rename Test 5">
-  <parameter name="ChannelName" value="sample50"></parameter>
-  <parameter name="NewChannelName" value=""></parameter>
+  <parameter name="ChannelName" value=""></parameter>
+  <parameter name="NewChannelName" value="sample110"></parameter>
     <classes>
     <class name="com.api.ApiAssessment.Scenario1Test"/>
     
